@@ -10,8 +10,9 @@ namespace Pong.Entities
         private int _height;
         private Vector2 _position;
 
-        public Paddle(int width, int height, Vector2 position)
+        public Paddle(int width, int height, Vector2 position, string name = "Paddle")
         {
+            this.name = name;
             _width = width;
             _height = height;
             _position = position;
