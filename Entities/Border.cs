@@ -59,11 +59,11 @@ namespace Pong.Entities
                     break;
                 case BorderType.Top:
                     borderSprite = Graphics.createSingleColorTexture(Screen.width, 10, Color.White);
-                    pos = new Vector2((borderSprite.Width / 2), (borderSprite.Height / 2));
+                    pos = new Vector2((borderSprite.Width / 2), (borderSprite.Height / 2) - 10);
                     break;
                 case BorderType.Down:
                     borderSprite = Graphics.createSingleColorTexture(Screen.width, 10, Color.White);
-                    pos = new Vector2((borderSprite.Width / 2), Screen.height - (borderSprite.Height / 2));
+                    pos = new Vector2((borderSprite.Width / 2), (Screen.height - (borderSprite.Height / 2)) + 10);
                     break;
             }
 

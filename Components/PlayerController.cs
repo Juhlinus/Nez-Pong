@@ -14,7 +14,7 @@ namespace Pong.Components
 
         public override void onAddedToEntity()
         {
-            _mover = entity.getComponent<Mover>();
+            _mover = entity.addComponent<Mover>();
 
             if (entity.name == "player")
             {

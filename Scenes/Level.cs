@@ -16,8 +16,6 @@ namespace Pong.Scenes
             // Level entities
             addEntity(new Entities.Border(Entities.BorderType.Down));
             addEntity(new Entities.Border(Entities.BorderType.Top));
-            // addEntity(new Entities.Border(Entities.BorderType.Right));
-            // addEntity(new Entities.Border(Entities.BorderType.Left));
 
             // Entities
             addEntity(new Entities.Score());

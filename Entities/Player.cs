@@ -9,6 +9,7 @@ namespace Pong.Entities
         public Player(bool isPlayer = true) : base(isPlayer ? "player" : "player2")
         {
             addComponent<BoxCollider>();
+            addComponent<Components.PlayerController>();
         }
 
         public override void  onAddedToScene()
